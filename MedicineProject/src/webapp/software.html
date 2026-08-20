@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Software Requirement Collection</title>
+</head>
+
+<body>
+
+    <h1>Software Requirement Collection</h1>
+
+    <form action="SoftwareRequirementServlet" method="get">
+
+        Name:
+        <input type="text" name="name">
+        <br><br>
+
+        Description:
+        <textarea name="description"></textarea>
+        <br><br>
+
+        Category:
+        <select name="category">
+            <option value="Web Application">Web Application</option>
+            <option value="Mobile Application">Mobile Application</option>
+            <option value="Desktop Application">Desktop Application</option>
+        </select>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+        Email:
+        <input type="email" name="email">
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
